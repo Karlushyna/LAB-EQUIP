@@ -16,25 +16,25 @@
     // фонові зображення
     @media screen and (max-width: 576px) {
         background-image: 
-        url(../img/hero/mobile/slider3.jpg);
+        url(../../img/hero/CAT_LAB_UK_18_2-08.png);
     }
 
     @media screen and (min-width: 577px) and (max-width: 1199px) {
         background-image: 
-            url(../img/hero/tablet/slider3.jpg),
+            url(../../img/hero/CAT_LAB_UK_18_2-08.png),
             linear-gradient(to right, #fff 25%, #191c26 12%);
     }
 
     @media screen and (min-width: 1200px) {
         background-image:
-            url(../img/hero/pc/slider3.jpg),
+            url(../../img/hero/CAT_LAB_UK_18_2-08.png),
             linear-gradient(to right, #fff 25%, #191c26 12%);
     }
 
     // планшет
     @media screen and (min-width: 768px) {
         max-width: 768px;
-        max-height: 680px;
+        max-height: 750px;
 
         background-size: 609px 680px, cover;
     }
@@ -43,7 +43,7 @@
     @media screen and (min-width: 1200px) {
         max-width: 1280px;
 
-        background-size: 1125px 680px, cover;
+        background-size: 1125px 750px, cover;
     }
 }
 
@@ -53,10 +53,10 @@
     @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-        .hero {
-            background-image: 
-                url(../img/hero/mobile/slider3-2x.jpg);
-        }
+        // .hero {
+        //     background-image: 
+        //         url(../img/hero/mobile/slider3-2x.jpg);
+        // }
     }
 }
 
@@ -65,11 +65,11 @@
     @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-        .hero {
-            background-image: 
-                url(../img/hero/tablet/slider3-2x.jpg),
-                linear-gradient(to right, #fff 25%, #191c26 12%);
-        }
+        // .hero {
+        //     background-image: 
+        //         url(../img/hero/tablet/slider3-2x.jpg),
+        //         linear-gradient(to right, #fff 25%, #191c26 12%);
+        // }
     }
 }
 
@@ -78,11 +78,11 @@
     @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-        .hero {
-            background-image: 
-                url(../img/hero/pc/slider3-2x.jpg),
-                linear-gradient(to right, #fff 25%, #191c26 12%);
-        }
+        // .hero {
+        //     background-image: 
+        //         url(../img/hero/pc/slider3-2x.jpg),
+        //         linear-gradient(to right, #fff 25%, #191c26 12%);
+        // }
     }
 }
 
@@ -119,10 +119,10 @@
 
 .main-title {
     margin-top: 0;
-    margin-bottom: 20px;
+    // margin-bottom: 20px;
 
     font-family: 'Raleway';
-    font-weight: 700;
+    // font-weight: 700;
     font-size: 48px;
     line-height: 1.16;
     letter-spacing: 0.05em;
@@ -136,8 +136,8 @@
 
     // пк
     @media screen and (min-width: 1200px) {
-        font-size: 72px;
-        line-height: 1.18;
+        // font-size: 72px;
+        // line-height: 1.18;
     }
 }
 

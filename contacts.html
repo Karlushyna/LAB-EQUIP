@@ -98,74 +98,132 @@
     <!-- Секція main -->
     <main>
 
-        <!-- Розділ Герой -->
-        <section class="hero">
-            <div class="container hero__container">
-
-                <!-- Соціальні мережі -->
-                <div class="hero__left-side" data-aos="fade-left" data-aos-easing="ease-out-cubic"
-                    data-aos-duration="1000" data-aos-delay="200">
-
-                    <ul class="social-links-list hero__social-links-list list">
-
-                        <li>
-                            <a class="social-links-list__link link" href="https://www.instagram.com/" target="_blank"
-                                rel="noopener noreferrer" aria-label="instagram">Instagram</a>
-                        </li>
-                        <li>
-                            <a class="social-links-list__link link" href="htts://www.youtube.com" target="_blank"
-                                rel="noopener noreferrer" aria-label="youtube">Youtube</a>
-                        </li>
-
-                    </ul>
-                </div>
-
-                <!-- Оффер -->
-                <div class="hero__group">
-                    <p class="uppertitle uppertitle--dark-mode" lang="en" data-aos="fade-left"
-                        data-aos-easing="ease-out-cubic" data-aos-duration="1000" data-aos-delay="300">INSTRUMENTS</p>
-
-                    <div class="main-title" lang="en" data-aos="fade-right" data-aos-easing="ease-out-cubic"
-                        data-aos-duration="1000" data-aos-delay="400" >
-                <img src="./img/hero/logo-main.png" alt="logo" width="400">
-                    </div>
-
-                    <p class="subtitle subtitle--dark-mode subtitle--hero-mb" data-aos="fade-right"
-                        data-aos-easing="ease-out-cubic" data-aos-duration="1000" data-aos-delay="500">
-                        WASHING DISINFECTION CATALOGUE
-Washing disinfection machine in the laboratory, pharma and industry sector
-                    </p>
-                </div>
-
-                <!-- Слайдер -->
-                <div class="slider">
-                    <ul class="slider__pagination list" data-aos="fade-left" data-aos-easing="ease-out-cubic"
-                        data-aos-duration="1000" data-aos-delay="300">
-                        <li class="slider__item slider__item--active"></li>
-                        <li class="slider__item"></li>
-                        <li class="slider__item"></li>
-                    </ul>
-
-                    <!-- Кнопки перемикання слайдів -->
-                    <ul class="slider__controls list" data-aos="fade-left" data-aos-easing="ease-out-cubic"
-                        data-aos-duration="1000" data-aos-delay="300">
-                        <li class="slider__item-control">
-                            <button class="slider__btn slider__btn--prev " type="button">Назад</button>
-                        </li>
-                        <li class="slider__item-control">
-                            <button class="slider__btn slider__btn--next slider__btn--active"
-                                type="button">Вперед</button>
-                        </li>
-                    </ul>
-                </div>
-
-            </div>
-
-        </section>
-
-       
-
     
+    
+
+        <!-- Розділ контакти -->
+        <section class="section contact" id="contact">
+
+            <div class="container contact__container">
+
+                <!-- Форма запису на послугу -->
+                <div class="contact__left-side">
+                    <h2 class="title contact__title" data-aos="fade-right" data-aos-easing="ease-out-cubic"
+                        data-aos-duration="1000" data-aos-delay="100">Онлайн-запис</h2>
+
+                    <form class="form">
+
+                        <!-- Дані замовника -->
+                        <div class="form__wrapper">
+                            <label class="form__group" data-aos="fade-up" data-aos-easing="ease-out-cubic"
+                                data-aos-duration="1000" data-aos-delay="200">
+                                <input class="form__input placeholder" type="text" name="user-name"
+                                    placeholder="Jon Snow" minlength="3" required>
+
+                                <!-- Підпис -->
+                                <span class="form__label">Ім'я<span class="decor"> *</span></span>
+
+                                <!-- Підказки -->
+                                <span class="form__txt-error txt-error">Мінімальна довжина 3 символи</span>
+                                <svg class="form__icons-error" width="15" height="15">
+                                    <use class="icon-attention" href="./img/sprits/sprit.svg#icon-attention">
+                                    </use>
+                                    <use class="icon-success" href="./img/sprits/sprit.svg#icon-success"></use>
+                                </svg>
+                            </label>
+
+                            <label class="form__group" data-aos="fade-up" data-aos-easing="ease-out-cubic"
+                                data-aos-duration="1000" data-aos-delay="300">
+                                <input class="form__input placeholder" type="text" name="user-phone"
+                                    placeholder="+38 (099) 123-45-67" required>
+
+                                <!-- Підпис -->
+                                <span class="form__label">Телефон<span class="decor"> *</span></span>
+
+                                <!-- Підказки -->
+                                <span class="form__txt-error txt-error">Введіть телефон у вказаному форматі</span>
+                                <svg class="form__icons-error" width="15" height="15">
+                                    <use class="icon-attention" href="./img/sprits/sprit.svg#icon-attention">
+                                    </use>
+                                    <use class="icon-success" href="./img/sprits/sprit.svg#icon-success"></use>
+                                </svg>
+                            </label>
+                        </div>
+
+                        <!-- Повідомлення -->
+                        <label class="form__message-group" data-aos="fade-up" data-aos-easing="ease-out-cubic"
+                            data-aos-duration="1000" data-aos-delay="400">
+
+                            <textarea class="form__message placeholder" name="user-messag" rows="5"
+                                placeholder="Введіть повідомлення"></textarea>
+                            <span class="form__message-label">Повідомлення</span>
+                        </label>
+
+                        <div class="form__btn-wrapper" data-aos="fade-right" data-aos-easing="ease-out-cubic"
+                            data-aos-duration="1000" data-aos-delay="500">
+                            <button class="btn btn--dark-mode" type="button">Надіслати</button>
+                        </div>
+                    </form>
+                </div>
+
+                <!-- Контакти сайту -->
+                <div class="contact__right-side">
+                    <h2 class="title contact__title title--dark-mode" data-aos="fade-left"
+                        data-aos-easing="ease-out-cubic" data-aos-duration="1000" data-aos-delay="100">Контакти</h2>
+                    <div class="contact__wrapper">
+                        <address class="contact__links">
+                            <ul class="list">
+                                <li class="contact__item" data-aos="fade-left" data-aos-easing="ease-out-cubic"
+                                    data-aos-duration="1000" data-aos-delay="200">
+                                    <a class="contact__link" href="https://goo.gl/maps/S13B71cPM89bUmLEA"
+                                        target="_blank" rel="noopener noreferrer" aria-label="Адреса сайту">
+                                        <svg class="contact__icon">
+                                            <use href="./img/sprits/sprit.svg#icon-map"></use>
+                                        </svg>
+                                        вул. Василькова,
+                                        7А Київ, 08132
+                                    </a>
+                                </li>
+                                <li class="contact__item" data-aos="fade-left" data-aos-easing="ease-out-cubic"
+                                    data-aos-duration="1000" data-aos-delay="300">
+                                    <a class="contact__link" href="tel:+380441111111" target="_blank"
+                                        rel="noopener noreferrer" aria-label="Номер телефону сайту">
+                                        <svg class="contact__icon">
+                                            <use href="./img/sprits/sprit.svg#icon-phone"></use>
+                                        </svg>
+                                        +38 044 111 11 11
+                                    </a>
+                                </li>
+                                <li class="contact__item" data-aos="fade-left" data-aos-easing="ease-out-cubic"
+                                    data-aos-duration="1000" data-aos-delay="400">
+                                    <a class="contact__link" href="mailto:barbershop@email.com" target="_blank"
+                                        rel="noopener noreferrer" aria-label="E-mail сайту">
+                                        <svg class="contact__icon">
+                                            <use href="./img/sprits/sprit.svg#icon-mail"></use>
+                                        </svg>
+                                        barbershop@email.com
+                                    </a>
+                                </li>
+                            </ul>
+                        </address>
+
+                        <div class="contact__group">
+                            <h3 class="uppertitle uppertitle--dark-mode"><span class="contact__uppertitle"
+                                    data-aos="fade-left" data-aos-easing="ease-out-cubic" data-aos-duration="1000"
+                                    data-aos-delay="500">час
+                                    роботи</span>
+                            </h3>
+                            <p class="contact__time" data-aos="fade-left" data-aos-easing="ease-out-cubic"
+                                data-aos-duration="1000" data-aos-delay="500">Щодня з
+                                <time datetime="09:00">9:00</time>
+                                до
+                                <time datetime="22:00">22:00</time>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
     <!-- Розділ footer -->

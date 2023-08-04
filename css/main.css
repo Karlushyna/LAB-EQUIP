@@ -1176,7 +1176,8 @@
   background-size: 480px 580px, cover;
   background-repeat: no-repeat;
 }
-@media screen and (max-width: 576px) {
+
+/* @media screen and (max-width: 576px) {
   .hero {
     background-image: url(../img/hero/mobile/slider3.jpg);
   }
@@ -1222,8 +1223,10 @@
   .hero {
     background-image: url(../img/hero/pc/slider3-2x.jpg), -webkit-gradient(linear, left top, right top, color-stop(25%, #fff), color-stop(12%, #191c26));
     background-image: url(../img/hero/pc/slider3-2x.jpg), linear-gradient(to right, #fff 25%, #191c26 12%);
-  }
-}
+  } 
+}*/
+
+
 .hero__container {
   position: relative;
   display: -webkit-box;
@@ -1259,11 +1262,11 @@
   margin-top: 0;
   margin-bottom: 20px;
   font-family: "Raleway";
-  font-weight: 700;
+  /* font-weight: 700; */
   font-size: 48px;
-  line-height: 1.16;
+  /* line-height: 1.16;
   letter-spacing: 0.05em;
-  color: #FFFFFF;
+  color: #FFFFFF; */
 }
 @media screen and (min-width: 768px) {
   .main-title {
