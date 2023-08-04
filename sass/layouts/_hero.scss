@@ -47,43 +47,43 @@
     }
 }
 
-// Фонове зображення для retina-екранів
-@media screen and (max-width: 576px) {
+// // Фонове зображення для retina-екранів
+// @media screen and (max-width: 576px) {
 
-    @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-        // .hero {
-        //     background-image: 
-        //         url(../img/hero/mobile/slider3-2x.jpg);
-        // }
-    }
-}
+//     @media (min-device-pixel-ratio: 2),
+//     (min-resolution: 192dpi),
+//     (min-resolution: 2dppx) {
+//         // .hero {
+//         //     background-image: 
+//         //         url(../img/hero/mobile/slider3-2x.jpg);
+//         // }
+//     }
+// }
 
-@media screen and (min-width: 577px) and (max-width: 1199px) {
+// @media screen and (min-width: 577px) and (max-width: 1199px) {
 
-    @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-        // .hero {
-        //     background-image: 
-        //         url(../img/hero/tablet/slider3-2x.jpg),
-        //         linear-gradient(to right, #fff 25%, #191c26 12%);
-        // }
-    }
-}
+//     @media (min-device-pixel-ratio: 2),
+//     (min-resolution: 192dpi),
+//     (min-resolution: 2dppx) {
+//         // .hero {
+//         //     background-image: 
+//         //         url(../img/hero/tablet/slider3-2x.jpg),
+//         //         linear-gradient(to right, #fff 25%, #191c26 12%);
+//         // }
+//     }
+// }
 
-@media screen and (min-width: 1200px) {
+// @media screen and (min-width: 1200px) {
 
-    @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-        // .hero {
-        //     background-image: 
-        //         url(../img/hero/pc/slider3-2x.jpg),
-        //         linear-gradient(to right, #fff 25%, #191c26 12%);
-        // }
-    }
+//     @media (min-device-pixel-ratio: 2),
+//     (min-resolution: 192dpi),
+//     (min-resolution: 2dppx) {
+//         // .hero {
+//         //     background-image: 
+//         //         url(../img/hero/pc/slider3-2x.jpg),
+//         //         linear-gradient(to right, #fff 25%, #191c26 12%);
+//         // }
+//     }
 }
 
 .hero__container {
