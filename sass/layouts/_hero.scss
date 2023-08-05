@@ -15,20 +15,20 @@
 
     // фонові зображення
     @media screen and (max-width: 576px) {
-        background-image: 
-        url(../../img/hero/CAT_LAB_UK_18_2-08.png);
+        // background-image: 
+        // url(../../img/hero/CAT_LAB_UK_18_2-08.png);
     }
 
     @media screen and (min-width: 577px) and (max-width: 1199px) {
-        background-image: 
-            url(../../img/hero/CAT_LAB_UK_18_2-08.png),
-            linear-gradient(to right, #fff 25%, #191c26 12%);
+        // background-image: 
+        //     url(../../img/hero/CAT_LAB_UK_18_2-08.png),
+        //     linear-gradient(to right, #fff 25%, #191c26 12%);
     }
 
     @media screen and (min-width: 1200px) {
-        background-image:
-            url(../../img/hero/CAT_LAB_UK_18_2-08.png),
-            linear-gradient(to right, #fff 25%, #191c26 12%);
+        // background-image:
+        //     url(../../img/hero/CAT_LAB_UK_18_2-08.png),
+        //     linear-gradient(to right, #fff 25%, #191c26 12%);
     }
 
     // планшет
@@ -45,6 +45,56 @@
 
         background-size: 1125px 750px, cover;
     }
+}
+
+.hero_next {
+   
+    margin-left: auto;
+    margin-right: auto;
+
+    max-width: 480px;
+    max-height: 580px;
+
+    text-align: center;
+
+    background-color: getColor('main-bg-cl');
+    background-position: top right, center;
+    background-size: 480px 580px, cover;
+    background-repeat: no-repeat;
+
+    // фонові зображення
+    @media screen and (max-width: 576px) {
+        // background-image: 
+        // url(../../img/hero/CAT_LAB_UK_18_2-08.png);
+    }
+
+    @media screen and (min-width: 577px) and (max-width: 1199px) {
+        // background-image: 
+        //     url(../../img/hero/CAT_LAB_UK_18_2-08.png),
+        //     linear-gradient(to right, #fff 25%, #191c26 12%);
+    }
+
+    @media screen and (min-width: 1200px) {
+        // background-image:
+        //     url(../../img/hero/CAT_LAB_UK_18_2-08.png),
+        //     linear-gradient(to right, #fff 25%, #191c26 12%);
+    }
+
+    // планшет
+    @media screen and (min-width: 768px) {
+        max-width: 768px;
+        max-height: 750px;
+
+        background-size: 609px 680px, cover;
+    }
+
+    // пк
+    @media screen and (min-width: 1200px) {
+        max-width: 1280px;
+
+        background-size: 1125px 750px, cover;
+    }
+    
 }
 
 // // Фонове зображення для retina-екранів
@@ -89,6 +139,7 @@
 .hero__container {
     position: relative;
     display: flex;
+    background-color: #313038;
 }
 
 // Оффер
@@ -98,6 +149,7 @@
     padding-bottom: 183px;
 
     max-width: 306px;
+    
    
     // планшет
     @media screen and (min-width: 768px) {

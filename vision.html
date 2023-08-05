@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css">
 
     <!-- Стилі -->
-    <link rel="stylesheet" href="./css/main.min.css">
+    <link rel="stylesheet" href="./css/main.css">
 </head>
 <body class="page-body">
 
@@ -29,10 +29,9 @@
         <div class="container page-header__container">
 
             <!-- Логотип -->
-            <a href="./index.html" aria-label="Логотип сайту BarberShop">
-                <svg width="69" height="56">
-                    <use class="logo " href="./img/sprits/sprit.svg#icon-logo" data-logo></use>
-                </svg>
+            <a href="./index.html" aria-label="logo">
+                <img src="./img/hero/LOGO08.png" alt="logo" width="150" height="45">
+                
             </a>
 
 
@@ -42,7 +41,7 @@
                 <!-- Гамбургер -->
                 <button class="main-nav__button" type="button" aria-controls="menu-container" aria-expanded="false"
                     data-menu-button>
-                    <svg width="34" height="29" aria-label="Перемикач мобільного меню">
+                    <svg width="34" height="29" aria-label="menu">
                         <use class="icon-cross" href="./img/sprits/sprit.svg#icon-exit"></use>
                         <use class="icon-menu" href="./img/sprits/sprit.svg#icon-menu"></use>
                     </svg>
@@ -55,31 +54,31 @@
                 <div class="main-nav__wrapper" id="menu-container">
 
                     <!-- Компоненти меню -->
-                    <ul class="main-nav__list list">
+                    <ul class="main-nav__list list main-nav-vision">
 
                         <li class="main-nav__item">
-                            <a class="main-nav__link link" href="./about.html">About</a>
+                            <a class="main-nav__link link main-nav-vision" href="./about.html">About</a>
                         </li>
 
                         <li class="main-nav__item">
-                            <a class="main-nav__link link" href="./vision.html">Vision &Mission</a>
+                            <a class="main-nav__link link main-nav-vision" href="./vision.html">Vision &Mission</a>
                         </li>
 
                         <li class="main-nav__item">
-                            <a class="main-nav__link link" href="./products.html">Products</a>
+                            <a class="main-nav__link link main-nav-vision" href="./products.html">Products</a>
                         </li>
 
                         <li class="main-nav__item">
-                            <a class="main-nav__link link" href="./contacts.html">Contacts</a>
+                            <a class="main-nav__link link main-nav-vision" href="./contacts.html">Contacts</a>
                         </li>
                     </ul>
 
                     <!-- Замовити стрижку -->
                     <div class="main-nav__group">
                         <a class="phone-link link" href="tel:+380441111111" target="_blank" rel="noreferrer noopener"
-                            aria-label="Номер телефону">+38 044 111 11 11</a>
-                        <button class="btn btn--page-header btn--anim-pulse" type="button"
-                            data-modal-open>онлайн-запис</button>
+                            aria-label="phone">+38 044 111 11 11</a>
+                        <button class="btn btn--page-header btn--anim-pulse button-vision" type="button"
+                            data-modal-open>Registration</button>
                     </div>
 
 
@@ -94,133 +93,67 @@
     <!-- Секція main -->
     <main>
 
-        <!-- Розділ Герой -->
+
         
 
         <!-- Розділ про нас -->
         <section class="section about" id="about">
             <div class="container about__container">
 
-                <!-- Фотографії -->
                 <ul class="photos grid list">
                     <li class="photos__item grid__item" data-aos="fade-up" data-aos-easing="ease-out-cubic"
                         data-aos-duration="1000" data-aos-delay="100">
                         <picture>
-                            <!-- розширення webp -->
-                            <source srcset="
-                                        ./img/about/pc/WebP/img1.webp 270w,
-                                        ./img/about/pc/WebP/img1-2x.webp 540w" sizes="(min-width: 1200px) 270px"
-                                type="image/webp" media="(min-width: 1200px)" />
-                            <source srcset="
-                                        ./img/about/tablet/WebP/img1.webp 330w,
-                                        ./img/about/tablet/WebP/img1-2x.webp 660w" sizes="(min-width: 768px) 330px"
-                                type="image/webp" media="(min-width: 768px)" />
+                        
 
-                            <!-- розширення jpeg -->
-                            <source srcset="
-                                        ./img/about/pc/img1.jpg 270w, 
-                                        ./img/about/pc/img1-2x.jpg 540w" sizes="(min-width: 1200px) 270px"
-                                type="image/jpeg" media="(min-width: 1200px)" />
-                            <source srcset="
-                                        ./img/about/tablet/img1.jpg 330w,
-                                        ./img/about/tablet/img1-2x.jpg 660w" sizes="(min-width: 768px) 330px"
-                                type="image/jpeg" media="(min-width: 768px)" />
-
-                            <img class="img" src="./img/about/tablet/img1.jpg" alt="Гоління бороди" />
+                            <img class="img" src="./img/hero/CAT_LAB_UK_18_2-09.png" alt="pic" />
                         </picture>
 
                     </li>
 
-                    <li class="photos__item grid__item" data-aos="fade-down" data-aos-easing="ease-out-cubic"
-                        data-aos-duration="1000" data-aos-delay="200">
-                        <picture>
-                            <!-- розширення webp -->
-                            <source srcset="
-                                        ./img/about/pc/WebP/img2.webp 270w,
-                                        ./img/about/pc/WebP/img2-2x.webp 540w" sizes="(min-width: 1200px) 270px"
-                                type="image/webp" media="(min-width: 1200px)" />
-                            <source srcset="
-                                        ./img/about/tablet/WebP/img2.webp 330w,
-                                        ./img/about/tablet/WebP/img2-2x.webp 660w" sizes="(min-width: 768px) 330px"
-                                type="image/webp" media="(min-width: 768px)" />
-
-                            <!-- розширення jpeg -->
-                            <source srcset="
-                                        ./img/about/pc/img2.jpg 270w, 
-                                        ./img/about/pc/img2-2x.jpg 540w" sizes="(min-width: 1200px) 270px"
-                                type="image/jpeg" media="(min-width: 1200px)" />
-                            <source srcset="
-                                        ./img/about/tablet/img2.jpg 330w,
-                                        ./img/about/tablet/img2-2x.jpg 660w" sizes="(min-width: 768px) 330px"
-                                type="image/jpeg" media="(min-width: 768px)" />
-
-                            <img class="img" src="./img/about/tablet/img2.jpg" alt="Гоління небезпечною бритвою" />
-                        </picture>
-
-                    </li>
+                
                 </ul>
 
                 <!-- Опис -->
                 <div class="about__description-group">
                     <p class="uppertitle uppertitle--light-mode" data-aos="fade-left" data-aos-easing="ease-out-cubic"
-                        data-aos-duration="1000" data-aos-delay="100">ПРО НАС</p>
+                        data-aos-duration="1000" data-aos-delay="100">our values</p>
 
                     <!-- Заголовок розділів -->
                     <h2 class="title title--about-mb title--light-mode" data-aos="fade-left"
                         data-aos-easing="ease-out-cubic" data-aos-duration="1000" data-aos-delay="200">
-                        Кращий Барбершоп твого міста
+                        VISION & MISSION
                     </h2>
                     <p class="subtitle subtitle--about-mb" data-aos="fade-left" data-aos-easing="ease-out-cubic"
                         data-aos-duration="1000" data-aos-delay="300">
-                        Якщо ти хочеш додати у свій образ більше впевненості, тобі точно до нас.
+                        In professional environments, Smeg always strives for high performance. 
+                        In fact, Smeg is continuously researching and developing new equipment that is not only reliable and safe,
+                        but also guarantees the best
+washing performance for the operator in the shortest possible time. 
+This is the “Made in Italy” quality that di- stinguishes Smeg, making it a world market leader.
                     </p>
                     <p class="description-txt" data-aos="fade-left" data-aos-easing="ease-out-cubic"
                         data-aos-duration="1000" data-aos-delay="400">
-                        Ми команда, яка ніколи не зупиняється на досягнутому
-                        і прагне змін. І коли ти потрапиш до рук нашого майстра,
-                        то вже ніколи не зможеш бути тим самим. Ми команда, яка завжди з клієнтами "на одній хвилі".
-                        Тому ми завжди
-                        готові вдосконалити кожного, хто до нас приходить!
+                        Excellent raw materials and innovative design techniques have always been at the forefront of Smeg products. We offer an extre- mely complex and 
+                        demanding industry a professional solution that guarantees exceptional performance, 
+                        efficiency, flexibility and reliability.
                     </p>
-                    <button class="btn btn--light-mode" type="button" data-aos="fade-left"
-                        data-aos-easing="ease-out-cubic" data-aos-duration="1000"
-                        data-aos-delay="500">онлайн-запис</button>
+                
                 </div>
             </div>
         </section>
 
-        <!-- Розділ послуги т ціни -->
-       
 
-        <!-- Розділ переваги -->
-       
 
-        <!-- Розділ команда -->
-        
-
-        <!-- Розділ портфоліо -->
-       
-
-        <!-- Розділ контакти -->
-       
+    
     </main>
 
     <!-- Розділ footer -->
     <footer class="footer">
         <div class="container footer__container">
-            <p class="footer__uppertitle">&#169; Copyright 2022</p>
+            <p class="footer__uppertitle">&#169; Copyright 2023</p>
 
-            <!-- Соціальні мережі -->
-            <ul class="social-links-list list">
-                <li class="social-links-list__item">
-                    <a class="social-links-list__link link" href="" target="_blank" rel="noopener noreferrer"
-                        aria-label="instagram">Instagram</a>
-                </li>
-                <li class="social-links-list__item">
-                    <a class="social-links-list__link link" href="" target=" _blank" rel="noopener noreferrer"
-                        aria-label="youtube">Youtube</a>
-                </li>
-            </ul>
+        
         </div>
     </footer>
 

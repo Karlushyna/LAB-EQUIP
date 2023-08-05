@@ -13,7 +13,9 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@700&display=swap"
         rel="stylesheet">
-
+<link rel="stylesheet" href="<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500&family=Raleway:wght@200;300;400;500;600;700&display=swap" rel="preconnect" crossorigin>
     <!-- Анімація -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
@@ -21,7 +23,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css">
 
     <!-- Стилі -->
-    <link rel="stylesheet" href="./css/main.min.css">
+    <link rel="stylesheet" href="./css/main.css">
 
 </head>
 
@@ -33,10 +35,9 @@
         <div class="container page-header__container">
 
             <!-- Логотип -->
-            <a href="./index.html" aria-label="Логотип">
-                <svg width="69" height="56">
-                    <use class="logo " href="./img/sprits/sprit.svg#icon-logo" data-logo></use>
-                </svg>
+            <a href="./index.html" aria-label="logo">
+                <img src="./img/hero/LOGO08.png" alt="logo" width="150" height="45">
+                
             </a>
 
 
@@ -46,7 +47,7 @@
                 <!-- Гамбургер -->
                 <button class="main-nav__button" type="button" aria-controls="menu-container" aria-expanded="false"
                     data-menu-button>
-                    <svg width="34" height="29" aria-label="Перемикач мобільного меню">
+                    <svg width="34" height="29" aria-label="button">
                         <use class="icon-cross" href="./img/sprits/sprit.svg#icon-exit"></use>
                         <use class="icon-menu" href="./img/sprits/sprit.svg#icon-menu"></use>
                     </svg>
@@ -81,9 +82,9 @@
                     <!-- Замовити стрижку -->
                     <div class="main-nav__group">
                         <a class="phone-link link" href="tel:+380441111111" target="_blank" rel="noreferrer noopener"
-                            aria-label="Номер телефону">+38 044 111 11 11</a>
+                            aria-label="phone">+38 011 111 11 11</a>
                         <button class="btn btn--page-header btn--anim-pulse" type="button"
-                            data-modal-open>онлайн-запис</button>
+                            data-modal-open>Registration</button>
                     </div>
 
 
@@ -99,31 +100,19 @@
     <main>
 
         <!-- Розділ Герой -->
-        <section class="hero">
+        <section class="hero_next">
             <div class="container hero__container">
 
                 <!-- Соціальні мережі -->
                 <div class="hero__left-side" data-aos="fade-left" data-aos-easing="ease-out-cubic"
                     data-aos-duration="1000" data-aos-delay="200">
 
-                    <ul class="social-links-list hero__social-links-list list">
-
-                        <li>
-                            <a class="social-links-list__link link" href="https://www.instagram.com/" target="_blank"
-                                rel="noopener noreferrer" aria-label="instagram">Instagram</a>
-                        </li>
-                        <li>
-                            <a class="social-links-list__link link" href="htts://www.youtube.com" target="_blank"
-                                rel="noopener noreferrer" aria-label="youtube">Youtube</a>
-                        </li>
-
-                    </ul>
                 </div>
 
                 <!-- Оффер -->
                 <div class="hero__group">
                     <p class="uppertitle uppertitle--dark-mode" lang="en" data-aos="fade-left"
-                        data-aos-easing="ease-out-cubic" data-aos-duration="1000" data-aos-delay="300">INSTRUMENTS</p>
+                        data-aos-easing="ease-out-cubic" data-aos-duration="1000" data-aos-delay="300">instruments</p>
 
                     <div class="main-title" lang="en" data-aos="fade-right" data-aos-easing="ease-out-cubic"
                         data-aos-duration="1000" data-aos-delay="400" >
@@ -137,33 +126,13 @@ Washing disinfection machine in the laboratory, pharma and industry sector
                     </p>
                 </div>
 
-                <!-- Слайдер -->
-                <div class="slider">
-                    <ul class="slider__pagination list" data-aos="fade-left" data-aos-easing="ease-out-cubic"
-                        data-aos-duration="1000" data-aos-delay="300">
-                        <li class="slider__item slider__item--active"></li>
-                        <li class="slider__item"></li>
-                        <li class="slider__item"></li>
-                    </ul>
-
-                    <!-- Кнопки перемикання слайдів -->
-                    <ul class="slider__controls list" data-aos="fade-left" data-aos-easing="ease-out-cubic"
-                        data-aos-duration="1000" data-aos-delay="300">
-                        <li class="slider__item-control">
-                            <button class="slider__btn slider__btn--prev " type="button">Назад</button>
-                        </li>
-                        <li class="slider__item-control">
-                            <button class="slider__btn slider__btn--next slider__btn--active"
-                                type="button">Вперед</button>
-                        </li>
-                    </ul>
-                </div>
+        
 
             </div>
 
         </section>
 
-       
+    
 
     
     </main>
