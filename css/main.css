@@ -1830,21 +1830,8 @@ a {
   background-repeat: no-repeat;
   background-position: bottom center;
 }
-@media screen and (max-width: 576px) {
-  .contact {
-    background-image: url(../img/contact/mobile/bg.png);
-  }
-}
-@media screen and (min-width: 577px) and (max-width: 1199.5px) {
-  .contact {
-    background-image: url(../img/contact/tablet/bg.png);
-  }
-}
-@media screen and (min-width: 1200px) {
-  .contact {
-    background-image: url(../img/contact/pc/bg.png);
-  }
-}
+
+
 @media screen and (min-width: 480px) {
   .contact {
     background-size: 100% 496px, cover;
@@ -1861,22 +1848,6 @@ a {
     max-width: 1280px;
     background-position: top right, center;
     background-size: 600px 644px, cover;
-  }
-}
-
-@media screen and (max-width: 576px) and (min-device-pixel-ratio: 2), screen and (max-width: 576px) and (-webkit-min-device-pixel-ratio: 2), screen and (max-width: 576px) and (min-resolution: 192dpi), screen and (max-width: 576px) and (min-resolution: 2dppx) {
-  .contact {
-    background-image: url(../img/contact/mobile/bg-2x.png);
-  }
-}
-@media screen and (min-width: 577px) and (max-width: 1199px) and (min-device-pixel-ratio: 2), screen and (min-width: 577px) and (max-width: 1199px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 577px) and (max-width: 1199px) and (min-resolution: 192dpi), screen and (min-width: 577px) and (max-width: 1199px) and (min-resolution: 2dppx) {
-  .contact {
-    background-image: url(../img/contact/tablet/bg-2x.png);
-  }
-}
-@media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
-  .contact {
-    background-image: url(../img/contact/pc/bg-2x.png);
   }
 }
 @media screen and (min-width: 1200px) {
@@ -2044,4 +2015,22 @@ a {
 
 .button-vision {
   color: #191c26;
+}
+
+.title-product {
+  font-size: 12px;
+}
+
+.button-add {
+  margin-top: 20px;
+  color: #c74646;
+}
+
+.img-right {
+  margin-left: 120px;
+}
+
+.section-product {
+  padding-top: 130px;
+  padding-bottom: 130px;
 }
