@@ -162,13 +162,13 @@ Via Leonardo da Vinci, 4
                             <label class="form__group" data-aos="fade-up" data-aos-easing="ease-out-cubic"
                                 data-aos-duration="1000" data-aos-delay="300">
                                 <input class="form__input placeholder" type="text" name="user-phone"
-                                    placeholder="+38 (099) 123-45-67" required>
+                                    placeholder="+380441111111 required>
 
-                                <!-- Підпис -->
-                                <span class="form__label">Телефон<span class="decor"> *</span></span>
+                                
+                                <span class="form__label">Phone<span class="decor"> *</span></span>
 
                                 <!-- Підказки -->
-                                <span class="form__txt-error txt-error">Введіть телефон у вказаному форматі</span>
+                                <span class="form__txt-error txt-error">Enter phone number in format +380441111111</span>
                                 <svg class="form__icons-error" width="15" height="15">
                                     <use class="icon-attention" href="./img/sprits/sprit.svg#icon-attention">
                                     </use>
@@ -183,12 +183,12 @@ Via Leonardo da Vinci, 4
 
                             <textarea class="form__message placeholder" name="user-messag" rows="5"
                                 placeholder="Введіть повідомлення"></textarea>
-                            <span class="form__message-label">Повідомлення</span>
+                            <span class="form__message-label">Message</span>
                         </label>
 
                         <div class="form__btn-wrapper" data-aos="fade-right" data-aos-easing="ease-out-cubic"
                             data-aos-duration="1000" data-aos-delay="500">
-                            <button class="btn btn--dark-mode" type="button">Надіслати</button>
+                            <button class="btn btn--dark-mode" type="button">Send</button>
                         </div>
                     </form>
                 </div>
@@ -220,21 +220,19 @@ Via Leonardo da Vinci, 4
                 </button>
             </div>
 
-            <!-- Форма замовлення послуги -->
             <form class="md-form">
-                <strong class="md-form__title">Get Call back</strong>
+                <strong class="md-form__title"> </strong>
 
-                <!-- Дані замовника -->
                 <label class="md-form__label">
                     <!-- Інпут -->
-                    <span>Ім'я<span class="decor"> *</span></span>
+                    <span>Name<span class="decor"> *</span></span>
                     <input class="md-form__input" type="text" name="user-name" minlength="3" placeholder=" " required>
                     <svg class="md-form__icon" width="20" height="20">
                         <use href="./img/sprits/sprit.svg#icon-man-black"></use>
                     </svg>
 
                     <!-- Підказки -->
-                    <span class="md-form__txt-error txt-error">Минимальния длинна 3 символа</span>
+                    <span class="md-form__txt-error txt-error">Enter at least 3 characters</span>
                     <svg class="md-form__icons-error" width="20" height="20">
                         <use class="icon-attention" href="./img/sprits/sprit.svg#icon-attention">
                         </use>
@@ -244,14 +242,14 @@ Via Leonardo da Vinci, 4
 
                 <label class="md-form__label">
                     <!-- Інпут -->
-                    <span>Телефон<span class="decor"> *</span></span>
+                    <span>Phone<span class="decor"> *</span></span>
                     <input class="md-form__input" type="text" name="user-phone" placeholder=" " required>
                     <svg class="md-form__icon" width="20" height="20">
                         <use href="./img/sprits/sprit.svg#icon-tel-black"></use>
                     </svg>
 
                     <!-- Підказки -->
-                    <span class="md-form__txt-error txt-error">Введите номер телефона в формате +38 099 123 45 67</span>
+                    <span class="md-form__txt-error txt-error">Enter phone number in format +380441111111</span>
                     <svg class="md-form__icons-error" width="20" height="20">
                         <use class="icon-attention" href="./img/sprits/sprit.svg#icon-attention">
                         </use>
@@ -261,14 +259,14 @@ Via Leonardo da Vinci, 4
 
                 <label class="md-form__label">
                     <!-- Інпут -->
-                    <span>Пошта<span class="decor"> *</span></span>
+                    <span>E-mail<span class="decor"> *</span></span>
                     <input class="md-form__input" type="text" name="user-mail" placeholder=" " required>
                     <svg class="md-form__icon" width="20" height="20">
                         <use href="./img/sprits/sprit.svg#icon-mail-black"></use>
                     </svg>
 
                     <!-- Підказки -->
-                    <span class="md-form__txt-error txt-error">Введите почту в формате example@mail.com</span>
+                    <span class="md-form__txt-error txt-error">Enter e-mail in format example@mail.com</span>
                     <svg class="md-form__icons-error" width="20" height="20">
                         <use class="icon-attention" href="./img/sprits/sprit.svg#icon-attention">
                         </use>
@@ -276,27 +274,9 @@ Via Leonardo da Vinci, 4
                     </svg>
                 </label>
 
-                <!-- Блок оплати -->
-                <div class="pay-type md-form__pay-type" role="group" aria-labelledby="pay-type-title">
-                    <strong class="pay-type__title" id="pay-type-title">Виберите форму оплаты</strong>
+        
 
-                    <div class="pay-type__pay-group">
-                        <label class="pay-type__label">
-                            <input class="pay-type__checkbox visually-hidden" type="radio" name="user-pay" checked>
-                            <svg class="pay-icon" width="50" height="50">
-                                <use href="./img/sprits/sprit.svg#icon-ms-card"></use>
-                            </svg>
-                        </label>
-
-                        <label class="pay-type__label">
-                            <input class="pay-type__checkbox visually-hidden" type="radio" name="user-pay">
-                            <svg class="pay-icon" width="50" height="50">
-                                <use href="./img/sprits/sprit.svg#icon-visa"></use>
-                            </svg>
-                        </label>
-                    </div>
-
-                </div>
+                
 
 
                 <!-- Політика приватності(чекбокс) -->
@@ -305,14 +285,15 @@ Via Leonardo da Vinci, 4
                     <label class="checkbox__label">
                         <input class="checkbox__input visually-hidden" type="checkbox">
                         <span class="checkbox__icon"></span>
-                        Погоджуюся з розсилкою і приймаю
+                        I agree with the mailing and accept the Terms of the Agreement
                         <a class="checkbox__link" href="">
-                            Умови договору
+                            Terms & Conditions
+
                         </a>
                     </label>
 
                     <!-- Кнопка відправки форми -->
-                    <button class="btn btn--light-mode" type="submit">Відправити</button>
+                    <button class="btn btn--light-mode" type="submit">To send</button>
                 </div>
 
             </form>
